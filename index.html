@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" charset="UTF-8"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p class="lend-form">メール送信フォーム</p>
+    <form action="./confirm.php" method="post">
+
+    <div class="item"> 
+      <p> 送信先 </p>
+      <input type="text" name="to" placeholder="例）山田太郎">
+    </div>
+      <div class="item"> 
+      <p>タイトル</p>
+      <input type="text" name="title"placeholder="題名を入力">
+      </div>
+
+      <div class="item"> 
+      <p>本文</p>
+      <textarea name="main" cols="50" rows="5"placeholder="自由に入力してください"></textarea>
+      </div>
+
+      <div class="button">
+      <p><input type="submit" name="send" value="送信"></p>
+      </div>
+    </form>
+  </body>
+</html>
